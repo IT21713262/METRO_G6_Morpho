@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="news">News</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard fragment</string>
+    <string name="news_fragment">News fragment</string>
+    <string name="notifications_fragment">Notifications fragment</string>
+    <string name="profile_fragment">Profile fragment</string>
+    <string name="todo">TODO</string>
+    <string name="software_engineer_n_ifs_company">Software Engineer\n IFS Company</string>
+    <string name="todo3">TODO</string>
+    <string name="ifs">IFS</string>
+    <string name="software_development">Software Development</string>
+    <string name="about_us">About Us</string>
+    <string name="ifs_ab_industrial_and_financial_systems_is_a_multinational_enterprise_software_company_headquartered_in_link_ping_sweden_the_company_develops_and_delivers_enterprise_software_for_customers_worldwide_who_manufacture_and_distribute_goods_maintain_assets_and_manage_service_focused_operations">IFS AB (Industrial and Financial Systems) is a multinational enterprise software company headquartered in Linköping, Sweden. The company develops and delivers enterprise software for customers worldwide who manufacture and distribute goods, maintain assets, and manage service-focused operations.</string>
+    <string name="post_a_job">Post a Job</string>
+    <string name="todo4">TODO</string>
+    <string name="ifs_company">IFS Company</string>
+    <string name="dashboard1">Dashboard</string>
+    <string name="todo5">TODO</string>
+    <string name="jobs_posted">Jobs Posted</string>
+    <string name="candidates_applied">Candidates Applied</string>
+    <string name="recent_posted_jobs">Recent Posted Jobs</string>
+    <string name="previous">previous</string>
+    <string name="new_fragment">New Fragment</string>
+    <string name="name_of_the_organization">Name of the organization*</string>
+    <string name="name_of_the_organization2">name of the organization</string>
+    <string name="your_job_has_been_posted_successfully">Your job has been posted successfully.</string>
+    <string name="todo6">TODO</string>
+    <string name="job_posted_successfully">Job posted successfully!</string>
+
+
+</resources>
