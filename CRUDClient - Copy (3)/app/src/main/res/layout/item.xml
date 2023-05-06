@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="20dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    app:cardBackgroundColor="@color/purplef"
+    app:cardMaxElevation="2dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/itm_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <EditText
+            android:id="@+id/edttitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@null"
+            android:ellipsize="end"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:maxLines="2"
+            android:scrollHorizontally="true"
+            android:text="Name"
+            android:textSize="20dp"
+            android:textStyle="bold|normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/itm_img"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/edtsorce"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:background="@null"
+            android:textAlignment="textEnd"
+            android:textColor="@color/lavender"
+            android:textStyle="bold|normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/itm_img"
+            app:layout_constraintTop_toBottomOf="@+id/edttitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
